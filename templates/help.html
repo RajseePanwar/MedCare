@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>MedCare | Help</title>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <link href="static/css/help.css" rel="stylesheet" />
+
+    <style>
+        body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #E3FEF7;
+}
+
+nav {
+    font-family: sans-serif;
+    background-color: #003C43;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.themed-container {
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #77B0AA;
+    border: 1px solid #003C43;
+}
+
+
+    </style>
+</head>
+<body>
+    <form id="form1">
+        <header>
+            <!--Navigation Bar-->
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+                <a class="navbar-brand" href="#"><b>MedCare</b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/help">Help</a>
+                    </li>
+                    <!-- <li class="nav-item">
+		                <a class="nav-link" href="/login">Login</a>
+		            </li>
+                    <li class="nav-item">
+		                <a class="nav-link" href="/signup">Sign Up</a>
+		            </li> -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-5">How to use MedCare?</h1>
+            <p class="lead">Please find below the Steps for effectively using MedCare. Click to <a href="/about">Learn More</a></p>
+        </div>
+
+        <div class="container themed-container">1. Visit the page of the related disease that you wish to take assessment for.</div>
+        <div class="container themed-container">2. Input your vitals correctly.</div>
+        <div class="container themed-container">3. Click on Submit.</div>
+        <div class="container themed-container">4. Get prediction/assessment result.</div>
+        <div class="container themed-container">6. You may download your result as PDF.</div>
+    </form>
+</body>
+</html>
